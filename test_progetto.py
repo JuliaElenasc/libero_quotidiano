@@ -216,7 +216,7 @@ print(f'Numero massimo di volte in cui una parola viene ripetuta:{max_frecuencia
 print(f'Promedio delle parole:{promedio_frecuencia}')
 print(f'Mediana delle frequenze:{mediana_frecuencia}')
 print(f'Deviazione standard delle frequenze:{desviacion_estandar}')
-print(f"La parola piu frecuente è: {df_freq_gral_sorted.iloc[1]['palabras']}") #Qui si ha presso il secondo valore perche manca pulire i dati esistono valori vuoti
+print(f"La parola piu frecuente è: {df_freq_gral_sorted.iloc[0]['palabras']}") #Qui si ha presso il secondo valore perche manca pulire i dati esistono valori vuoti
 
 # Grafici
 #Elaborazione d'una lista di Ngramas
